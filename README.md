@@ -10,7 +10,7 @@
 
 # Guia cypress:
  <li>Apos executar o npm install cypress
- <li>execute o comando npx cypress open, ele irá abrir uma tela do cypress, clique em E2E/
+ <li>execute o comando npx cypress open, ele irá abrir uma tela do cypress, clique em E2E<br>
  continue, selecione o navegador que desejar e clique em start E2E  testing navegador.
  pronto o cypress foi instalado e criou as pastas :D
 
