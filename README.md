@@ -17,8 +17,8 @@
 <li> node install (instala as dependencias do projeto)
 
 # Entendendo os comandos basicos do git:
-<li>git init (Comando usado uma vez para cofiguração do repositorio)
-<li>git status (Mostra as mudanças feitas )
-<li>git add . (Diz ao git que você quer incluir atualizações a um arquivo específico no próximo commit)
-<li>git commit -m "nome do commit/alteração feita" (Nomeia o conjunto de mudanças locais)
-<li>git push (Evia o conteudo do repo local para o repositorio git)
+git init (Comando usado uma vez para cofiguração do repositorio local)
+<br>git status (Mostra as mudanças feitas)
+<br>git add . (Diz ao git que você quer incluir atualizações a um arquivo específico no próximo commit)
+<br>git commit -m "nome do commit/alteração feita" (Nomeia o conjunto de mudanças locais)
+<br>git push (Evia o conteudo do repo local para o repositorio git)
