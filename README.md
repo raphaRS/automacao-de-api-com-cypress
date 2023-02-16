@@ -1,7 +1,7 @@
 # automacao-de-api-com-cypress
 
 #Instalação:
-Git bash https://git-scm.com/download/win
+<li>Git bash https://git-scm.com/download/win</li> 
 Git repositorio: https://github.com/raphaRS/automacao-de-api-com-cypress.git
 NodeJs: https://nodejs.org/en/
 Cypres:
