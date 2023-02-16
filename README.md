@@ -5,8 +5,8 @@
 <l1>Git repositorio: https://github.com/raphaRS/automacao-de-api-com-cypress.git</li>
 <li>NodeJs: https://nodejs.org/en/</li>
 <li>Cypres:</li>
-	<li>npm install cypress ( instala a versão mais recente do cypress<li>
-	<li>npm install cypress@versão ( instala uma versão especifica do cypress)<li>
+	<li>npm install cypress ( instala a versão mais recente do cypress
+	<li>npm install cypress@versão ( instala uma versão especifica do cypress)
 
 # Guia cypress:
  Apos executar o npm install cypress
