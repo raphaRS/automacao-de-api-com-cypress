@@ -7,6 +7,7 @@
 <li>Cypres:
 <br>-------npm install cypress ( instala a versão mais recente do cypress<br>
     -------npm install cypress@versão ( instala uma versão especifica do cypress)
+<br>
 # Guia cypress:
  <li>Apos executar o npm install cypress
  <li>Execute o comando npx cypress open, ele irá abrir uma tela do cypress, clique em E2E<br>
