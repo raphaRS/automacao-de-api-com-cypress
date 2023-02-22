@@ -5,7 +5,7 @@ describe('Get a infomations Tatooine', () => {
       //Exemplo de request com o metodo importado
       get_planets.allPlanets().should((response) => {
         expect(response.status).to.eq(200);
-        expect(response.body.results[0].name).to.be.eql("Tatooine");
+        expect(response.body.results[1].name).to.be.eql("Tatooine");
       });
     });
 
@@ -22,12 +22,14 @@ describe('Get a infomations Tatooine', () => {
     });
 
     it('Get climate Tatooine', () => {
-    //Exemplo de como separar o array do response
+    //Exemplo de como separar o array do retorno da api
       get_planets.allPlanets().should((response) => {
-        const responseTatooine = response.body.results;
-        const climate = responseTatooine[0].climate;
+        const responseCompleto = response;
+        const bodyDoResponse = responseCompleto.body;
+        const arrayDesejado = bodyDoResponse.results[0];
+        const indiceEsperado = arrayDesejado.climate; 
         expect(response.status).to.be.eql(200);
-        expect(climate).to.be.eql("arid")
+        expect(indiceEsperado).to.be.eql("arid")
       });
     });
   });
