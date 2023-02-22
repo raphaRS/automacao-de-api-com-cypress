@@ -8,7 +8,7 @@
 <br>-------npm install cypress ( instala a versão mais recente do cypress<br>
     -------npm install cypress@versão ( instala uma versão especifica do cypress)
 <br>
-# Guia cypress:
+# Guia config cypress:
  <li>Apos executar o npm install cypress
  <li>Execute o comando npx cypress open, ele irá abrir uma tela do cypress, clique em E2E<br>
  continue, selecione o navegador que desejar e clique em start E2E  testing navegador<br>
