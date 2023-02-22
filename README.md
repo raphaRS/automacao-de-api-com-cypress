@@ -1,6 +1,9 @@
 # Automação de api com cypress
+<br>
+    Api usada: https://swapi.dev/ <br>
 
-# Instalação:
+# Instalação: <br>
+<li>Postman: https://www.postman.com/downloads/?utm_source=postman-home
 <li>Git bash https://git-scm.com/download/win</li> 
 <li>Git repositorio: https://github.com/raphaRS/automacao-de-api-com-cypress.git</li>
 <li>NodeJs: https://nodejs.org/en/</li>
