@@ -19,7 +19,7 @@
  <li> Estrutura de pastas:
      <p>cypress/<br>integration/<br>request<br>tests</p>
 <h3>Instalando dependencias</h3>
-<li> node install (instala as dependencias do projeto)
+<li> npm install (instala as dependencias do projeto)
 
 <h3> Entendendo os comandos basicos do git:</h3>
 git init (Comando usado uma vez para cofiguração do repositorio local)
