@@ -18,12 +18,12 @@
      <br>
  <li> Estrutura de pastas:
      <br>
- <li> cypress/integration/request,test
-     <br>
+ <li> cypress/
+     <p>cypress/<br>integration/<br>request<br>tests</p>
 <h3>Instalando dependencias</h3>
 <li> node install (instala as dependencias do projeto)
 
-# Entendendo os comandos basicos do git:
+<h3> Entendendo os comandos basicos do git:</h3>
 git init (Comando usado uma vez para cofiguração do repositorio local)
 <br>git status (Mostra as mudanças feitas)
 <br>git add . (Diz ao git que você quer incluir atualizações a um arquivo específico no próximo commit)
