@@ -5,8 +5,8 @@
 <li>Git repositorio: https://github.com/raphaRS/automacao-de-api-com-cypress.git</li>
 <li>NodeJs: https://nodejs.org/en/</li>
 <li>Cypres:
-<br>-------npm install cypress ( instala a versão mais recente do cypress<br>
-    -------npm install cypress@versão ( instala uma versão especifica do cypress, por preferencia o projeto está na 9.4.0)
+<br>npm install cypress ( instala a versão mais recente do cypress<br>
+    npm install cypress@versão ( instala uma versão especifica do cypress, por preferencia o projeto está na 9.4.0)
 <br>
 # Guia config cypress:
  <li>Apos executar o npm install cypress
@@ -14,7 +14,7 @@
      <br>
  <li> Estrutura de pastas:
      <br>
- <li> ----cypress/integration/request,test
+ <li> cypress/integration/request,test
      <br>
 # Instalando dependencias
 <li> node install (instala as dependencias do projeto)
