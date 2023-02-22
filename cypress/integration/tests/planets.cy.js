@@ -1,7 +1,7 @@
 import * as get_planets from '../requests/get_planets';
 
-describe('Get a infomations Tatooine', () => {
-    it('Planet Tatooine', () => {
+describe('Get a informations of Tatooine', () => {
+    it('Obtain the name of Planet', () => {
       //Exemplo de request com o metodo importado
       get_planets.allPlanets().should((response) => {
         expect(response.status).to.eq(200);
@@ -9,11 +9,11 @@ describe('Get a infomations Tatooine', () => {
       });
     });
 
-    it('Get terrain of Tatooine', () => {
+    it('Get the terrain of Tatooine', () => {
       //Exemplo de request com o metodo dentro do teste
       cy.request({
         method: 'GET',
-        url: 'https://swapi.dev/api/planets',
+        url: 'https://swapi.dev/api/planets/orquidario',
         failOnStatusCode: false,
       }).should((response) => {
         expect(response.status).to.be.eql(200);
@@ -21,7 +21,7 @@ describe('Get a infomations Tatooine', () => {
       });
     });
 
-    it('Get climate Tatooine', () => {
+    it('Get the climate in Tatooine', () => {
     //Exemplo de como separar o array do retorno da api
       get_planets.allPlanets().should((response) => {
         const responseCompleto = response;
