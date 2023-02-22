@@ -1,17 +1,18 @@
 # Automação de api com cypress
-<br>
-    Api usada: https://swapi.dev/ <br>
+<li>
+    Api usada: https://swapi.dev/<br>
 
-# Instalação: <br>
+ <h4> Instalação:</h4>
 <li>Postman: https://www.postman.com/downloads/?utm_source=postman-home
 <li>Git bash https://git-scm.com/download/win</li> 
 <li>Git repositorio: https://github.com/raphaRS/automacao-de-api-com-cypress.git</li>
 <li>NodeJs: https://nodejs.org/en/</li>
 <li>Cypres:
-<br>npm install cypress ( instala a versão mais recente do cypress<br>
+    <br>
+    npm install cypress ( instala a versão mais recente do cypress<br>
     npm install cypress@versão ( instala uma versão especifica do cypress, por preferencia o projeto está na 9.4.0)
-<br>
-# Guia config cypress:
+    <br>
+<h3>Guia de configuração cypress:</h3>
  <li>Apos executar o npm install cypress
  <li>Execute o comando npx cypress open
      <br>
@@ -19,7 +20,7 @@
      <br>
  <li> cypress/integration/request,test
      <br>
-# Instalando dependencias
+<h3>Instalando dependencias</h3>
 <li> node install (instala as dependencias do projeto)
 
 # Entendendo os comandos basicos do git:
