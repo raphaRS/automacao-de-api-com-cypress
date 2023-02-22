@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "cypress": "^12.5.1",
+    "cypress": "^9.4.0",
     "node": "^19.6.0"
   }
 }
