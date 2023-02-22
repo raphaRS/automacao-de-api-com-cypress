@@ -10,9 +10,12 @@
 <br>
 # Guia config cypress:
  <li>Apos executar o npm install cypress
- <li>Execute o comando npx cypress open <br>
- <li> Estrutura de pastas: <br>
+ <li>Execute o comando npx cypress open
+     <br>
+ <li> Estrutura de pastas:
+     <br>
  <li> ----cypress/integration/request,test
+     <br>
 # Instalando dependencias
 <li> node install (instala as dependencias do projeto)
 
