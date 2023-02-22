@@ -17,8 +17,6 @@
  <li>Execute o comando npx cypress open
      <br>
  <li> Estrutura de pastas:
-     <br>
- <li> cypress/
      <p>cypress/<br>integration/<br>request<br>tests</p>
 <h3>Instalando dependencias</h3>
 <li> node install (instala as dependencias do projeto)
