@@ -5,4 +5,4 @@ function allPlanets() {
     })
   }
 
-  export { allPlanets };
+  export { allPlanets,  };

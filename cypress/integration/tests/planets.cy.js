@@ -5,7 +5,7 @@ describe('Get a informations of Tatooine', () => {
       //Exemplo de request com o metodo importado
       get_planets.allPlanets().should((response) => {
         expect(response.status).to.eq(200);
-        expect(response.body.results[1].name).to.be.eql("Tatooine");
+        expect(response.body.results[0].name).to.be.eql("Tatooine");
       });
     });
 
@@ -13,7 +13,7 @@ describe('Get a informations of Tatooine', () => {
       //Exemplo de request com o metodo dentro do teste
       cy.request({
         method: 'GET',
-        url: 'https://swapi.dev/api/planets/orquidario',
+        url: 'https://swapi.dev/api/planets',
         failOnStatusCode: false,
       }).should((response) => {
         expect(response.status).to.be.eql(200);
