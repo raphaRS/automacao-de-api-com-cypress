@@ -1,4 +1,3 @@
-import { expect } from 'chai';
 import * as getBooks from '../requests/getBooks.request';
 
 describe('Get books', () => {
