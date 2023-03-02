@@ -24,6 +24,8 @@
 <li>Postman: https://www.postman.com/downloads/?utm_source=postman-home
 <h3> Entendendo os comandos basicos do git:</h3>
 git init (Comando usado uma vez para cofiguração do repositorio local)
+<br>git branch (nome da branch)(Git branch cria uma partição do projeto para adicionar alterações e subir o codigo para a main no github)
+<br>git checkout (nome da branch) (git checkout altera a branch da main para a branch criada)
 <br>git status (Mostra as mudanças feitas)
 <br>git add . (Diz ao git que você quer incluir atualizações a um arquivo específico no próximo commit)
 <br>git commit -m "nome do commit/alteração feita" (Nomeia o conjunto de mudanças locais)
